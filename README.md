@@ -31,16 +31,20 @@ The complete computational workflow comprised the following major stages:
 9. Integrated candidate prioritization
    ↓
 10. Molecular dynamics simulation
+    │
     ├── System preparation
+    │
     ├── Energy minimization
+    │
     ├── NVT/NPT equilibration
+    │
     ├── 200-ns production MD
+    │
     └── Trajectory analysis
    ↓
 11. MM/GBSA binding-energy estimation
    ↓
 12. Final computational candidate prioritization
-
 ## Repository Structure
 
 01_library_preparation/      Compound retrieval, curation, and 3D generation
