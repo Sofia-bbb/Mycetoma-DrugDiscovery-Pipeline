@@ -103,3 +103,13 @@ Computational environment
 Python package dependencies are listed in `requirements.txt`.
 Cluster-specific paths, module names, resource requests, and SLURM settings
 should be adapted to the local HPC environment.
+
+## Author and Affiliation
+
+**Sofia Ali**  
+Department of Chemistry and Biochemistry  
+University of Northern British Columbia (UNBC)  
+Prince George, British Columbia, Canada
+
+**Supervision:** Jacob Walsh, Department of Chemistry and Biochemistry, 
+University of Northern British Columbia (UNBC)
