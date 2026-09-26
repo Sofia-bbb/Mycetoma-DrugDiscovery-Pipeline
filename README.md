@@ -45,7 +45,7 @@ The complete computational workflow comprised the following major stages:
 
 ## Repository Structure
 
-```text
+
 01_library_preparation/     Compound retrieval, curation, and 3D generation
 02_target_preparation/      Target validation, binding-site mapping, and receptor preparation
 03_docking/                 Ligand preparation and molecular docking
