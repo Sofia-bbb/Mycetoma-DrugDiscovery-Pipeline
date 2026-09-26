@@ -10,36 +10,37 @@ The outputs of this workflow represent **computational prioritization prediction
 
 ## Workflow
 
-The complete computational workflow is organized as a sequential,
-reproducible seven-stage framework:
+The complete computational workflow comprised the following major stages:
 
-**COCONUT Natural-Product Library**
-↓
-**1. Library Preparation**
-Compound retrieval → quinone identification → curation → 3D structure generation
-↓
-**2. Target Preparation**
-Sequence retrieval → AlphaFold DB structure → structural validation →
-reference SCD comparison → binding-site mapping → receptor preparation
-↓
-**3. Molecular Docking**
-Ligand preparation → AutoDock Vina docking → spatial quality control
-↓
-**4. Protein–Ligand Interaction Profiling**
-Top-pose extraction → complex generation → PLIP interaction analysis
-↓
-**5. Candidate Prioritization**
-Drug-likeness → PAINS/Brenk/quinone-chemistry assessment →
-developability → ADMET → integrated prioritization
-↓
-**6. Molecular Dynamics Simulation**
-System preparation → energy minimization → NVT/NPT equilibration →
-200-ns production MD → trajectory analysis
-↓
-**7. MM/GBSA Analysis**
-Final 100-ns trajectory → 1,001 snapshots → MM/GBSA binding-energy estimation
-↓
-**Final Computational Candidate Prioritization**
+```text
+1. Natural-product library retrieval and inventory
+   ↓
+2. Quinone identification and library curation
+   ↓
+3. 3D structure generation and ligand preparation
+   ↓
+4. Target structure preparation and validation
+   ↓
+5. Binding-site mapping and receptor preparation
+   ↓
+6. Molecular docking and spatial quality control
+   ↓
+7. Protein–ligand interaction profiling
+   ↓
+8. Drug-likeness, medicinal-chemistry, and ADMET assessment
+   ↓
+9. Integrated candidate prioritization
+   ↓
+10. Molecular dynamics simulation
+    ├── System preparation
+    ├── Energy minimization
+    ├── NVT/NPT equilibration
+    ├── 200-ns production MD
+    └── Trajectory analysis
+   ↓
+11. MM/GBSA binding-energy estimation
+   ↓
+12. Final computational candidate prioritization
 ## Repository Structure
 
 ```text
