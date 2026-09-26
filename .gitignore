@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Logs and temporary files
+*.log
+*.out
+*.err
+*.tmp
+
+# SLURM
+slurm-*.out
+
+# Molecular dynamics large outputs
+*.xtc
+*.trr
+*.cpt
+*.edr
+*.tpr
+
+# OS/editor files
+.DS_Store
+*~

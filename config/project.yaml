@@ -1,0 +1,14 @@
+project:
+  name: Mycetoma-DrugDiscovery
+  version: "0.1"
+
+organism:
+  scientific_name: "Madurella mycetomatis"
+
+target:
+  protein_name: "Scytalone dehydratase"
+  gene_id: "MMYC01_208144"
+  uniprot_accession: "A0A175VTY3"
+  alphafold_accession: "AF-A0A175VTY3-F1"
+
+

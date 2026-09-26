@@ -1,0 +1,13 @@
+receptor = 02_target_preparation/receptor/MmSCD_receptor.pdbqt
+
+center_x = 0.0
+center_y = -1.5
+center_z = -3.5
+
+size_x = 22
+size_y = 22
+size_z = 22
+
+exhaustiveness = 32
+num_modes = 20
+energy_range = 4
