@@ -102,6 +102,14 @@ Python package dependencies are listed in `requirements.txt`.
 Cluster-specific paths, module names, resource requests, and SLURM settings
 should be adapted to the local HPC environment.
 
+
+before `## Author and Affiliation`, or the previous code block was not closed correctly.
+
+### Fix it
+
+Make sure the section is **outside** the code block. It should look exactly like this in `README.md`:
+
+```markdown
 ## Author and Affiliation
 
 **Sofia Ali**  
@@ -109,6 +117,6 @@ Department of Chemistry and Biochemistry
 University of Northern British Columbia (UNBC)  
 Prince George, British Columbia, Canada
 
-**Supervisor:** Jacob Walsh  
+**Jacob Walsh**  
 Department of Chemistry and Biochemistry  
 University of Northern British Columbia (UNBC)
