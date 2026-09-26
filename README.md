@@ -67,10 +67,7 @@ For the MmSCD case study, the workflow progressed from 738,823 COCONUT records t
 
 Docking and spatial filtering retained 1,188 candidates. PLIP interaction filtering reduced this set to 119 candidates, followed by medicinal-chemistry and ADMET assessment and molecular-dynamics-based prioritization.
 
-## Software Requirements
-
-The computational workflow was implemented using the following software and packages:
-
+## Software and Databases
 Python 3
 ├── RDKit
 ├── Biopython
@@ -92,7 +89,7 @@ MM/GBSA analysis
 ├── MMPBSA.py
 └── cpptraj
 
-Data sources
+Databases and data resources
 ├── COCONUT natural-product database
 └── AlphaFold Database (AlphaFold DB)
 
