@@ -103,13 +103,6 @@ Cluster-specific paths, module names, resource requests, and SLURM settings
 should be adapted to the local HPC environment.
 
 
-before `## Author and Affiliation`, or the previous code block was not closed correctly.
-
-### Fix it
-
-Make sure the section is **outside** the code block. It should look exactly like this in `README.md`:
-
-```markdown
 ## Author and Affiliation
 
 **Sofia Ali**  
