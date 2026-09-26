@@ -66,8 +66,6 @@ Docking and spatial filtering retained 1,188 candidates. PLIP interaction filter
 
 ## Software Requirements
 
-## Software Requirements
-
 The computational workflow was implemented using the following software and
 packages:
 
@@ -111,5 +109,6 @@ Department of Chemistry and Biochemistry
 University of Northern British Columbia (UNBC)  
 Prince George, British Columbia, Canada
 
-**Supervision:** Jacob Walsh, Department of Chemistry and Biochemistry, 
+**Supervisor:** Jacob Walsh  
+Department of Chemistry and Biochemistry  
 University of Northern British Columbia (UNBC)
