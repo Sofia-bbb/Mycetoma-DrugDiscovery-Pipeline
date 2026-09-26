@@ -66,15 +66,40 @@ Docking and spatial filtering retained 1,188 candidates. PLIP interaction filter
 
 ## Software Requirements
 
-The workflow uses the following principal software:
+## Software Requirements
 
-- Python 3
-- RDKit
-- Biopython
-- AutoDock Vina 1.2.5
-- PLIP 3.0.1
-- GROMACS 2024.6
-- AmberTools 25.0
-- Meeko
+The computational workflow was implemented using the following software and
+packages:
 
-Python dependencies are listed in `requirements.txt`. Cluster-specific execution details and SLURM examples are documented separately.
+```text
+Python 3
+├── RDKit
+├── Biopython
+├── Requests
+└── PyYAML
+
+Molecular docking
+├── AutoDock Vina 1.2.5
+└── Meeko
+
+Protein–ligand interaction analysis
+└── PLIP 3.0.1
+
+Molecular dynamics
+└── GROMACS 2024.6
+
+MM/GBSA analysis
+├── AmberTools 25.0
+├── MMPBSA.py
+└── cpptraj
+
+Data sources
+├── COCONUT natural-product database
+└── AlphaFold Database (AlphaFold DB)
+
+Computational environment
+└── SLURM-based high-performance computing (HPC)
+
+Python package dependencies are listed in `requirements.txt`.
+Cluster-specific paths, module names, resource requests, and SLURM settings
+should be adapted to the local HPC environment.
