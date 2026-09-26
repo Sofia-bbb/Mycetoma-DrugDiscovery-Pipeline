@@ -10,16 +10,36 @@ The outputs of this workflow represent **computational prioritization prediction
 
 ## Workflow
 
-The repository is organized into seven main stages:
+The complete computational workflow is organized as a sequential,
+reproducible seven-stage framework:
 
-1. **Library preparation** – compound retrieval, curation, and 3D structure generation.
-2. **Target preparation** – target retrieval, structural validation, reference comparison, binding-site mapping, and receptor preparation.
-3. **Molecular docking** – ligand preparation, AutoDock Vina screening, and spatial quality control.
-4. **Interaction profiling** – PLIP-based characterization of protein–ligand interactions.
-5. **Candidate prioritization** – drug-likeness, medicinal-chemistry alerts, ADMET assessment, and integrated prioritization.
-6. **Molecular dynamics simulation** – system preparation, equilibration, 200-ns production simulations, and trajectory analysis.
-7. **MM/GBSA analysis** – binding-energy estimation from the final 100 ns of each production trajectory.
-
+**COCONUT Natural-Product Library**
+↓
+**1. Library Preparation**
+Compound retrieval → quinone identification → curation → 3D structure generation
+↓
+**2. Target Preparation**
+Sequence retrieval → AlphaFold DB structure → structural validation →
+reference SCD comparison → binding-site mapping → receptor preparation
+↓
+**3. Molecular Docking**
+Ligand preparation → AutoDock Vina docking → spatial quality control
+↓
+**4. Protein–Ligand Interaction Profiling**
+Top-pose extraction → complex generation → PLIP interaction analysis
+↓
+**5. Candidate Prioritization**
+Drug-likeness → PAINS/Brenk/quinone-chemistry assessment →
+developability → ADMET → integrated prioritization
+↓
+**6. Molecular Dynamics Simulation**
+System preparation → energy minimization → NVT/NPT equilibration →
+200-ns production MD → trajectory analysis
+↓
+**7. MM/GBSA Analysis**
+Final 100-ns trajectory → 1,001 snapshots → MM/GBSA binding-energy estimation
+↓
+**Final Computational Candidate Prioritization**
 ## Repository Structure
 
 ```text
