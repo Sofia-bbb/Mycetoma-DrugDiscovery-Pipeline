@@ -31,16 +31,20 @@ The complete computational workflow comprised the following major stages:
 9. Integrated candidate prioritization
    ↓
 10. Molecular dynamics simulation
+    │
     ├── System preparation
+    │
     ├── Energy minimization
+    │
     ├── NVT/NPT equilibration
+    │
     ├── 200-ns production MD
+    │
     └── Trajectory analysis
    ↓
 11. MM/GBSA binding-energy estimation
    ↓
 12. Final computational candidate prioritization
-
 ## Repository Structure
 
 01_library_preparation/      Compound retrieval, curation, and 3D generation
@@ -72,6 +76,10 @@ Python 3.11.4
 ├── Biopython
 ├── Requests
 └── PyYAML
+├── RDKit
+├── Biopython
+├── Requests
+└── PyYAML
 
 Additional software
 ├── R 4.6.1
@@ -92,7 +100,7 @@ MM/GBSA analysis
 ├── MMPBSA.py
 └── cpptraj
 
-Data sources
+Databases and data resources
 ├── COCONUT natural-product database
 └── AlphaFold Database (AlphaFold DB)
 
@@ -139,6 +147,12 @@ Detailed workflow information is available in `docs/workflow.md`.
 Department of Chemistry and Biochemistry  
 University of Northern British Columbia (UNBC)  
 Prince George, British Columbia, Canada
+
+**Moaaz M. Saadaldin**  
+Department of Bioinformatics and Biostatistics  
+National University Biomedical Research Institute  
+National University-Sudan  
+Khartoum, Sudan
 
 **Supervisor: Jacob Walsh**  
 Department of Chemistry and Biochemistry  
