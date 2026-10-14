@@ -67,15 +67,19 @@ Docking and spatial filtering retained 1,188 candidates. PLIP interaction filter
 
 The computational workflow was implemented using the following software and packages:
 
-Python 3
+Python 3.11.4
 ├── RDKit
 ├── Biopython
 ├── Requests
 └── PyYAML
 
+Additional software
+├── R 4.6.1
+└── GNU Bash 5.1.16
+
 Molecular docking
 ├── AutoDock Vina 1.2.5
-└── Meeko
+└── Meeko 0.7.1
 
 Protein–ligand interaction analysis
 └── PLIP 3.0.1
@@ -98,6 +102,28 @@ Computational environment
 Python package dependencies are listed in `requirements.txt`.
 
 Cluster-specific paths, module names, resource requests, and SLURM settings should be adapted to the local HPC environment.
+
+## Installation and Execution
+
+Clone the repository:
+
+```bash
+git clone https://github.com/Sofia-bbb/Mycetoma-DrugDiscovery-Pipeline.git
+cd Mycetoma-DrugDiscovery-Pipeline
+```
+
+Python package dependencies are listed in `requirements.txt`.
+
+The computational workflow comprises seven stages, from library
+preparation to MM/GBSA analysis. Detailed workflow descriptions,
+parameters, and filtering criteria are provided in `docs/workflow.md`.
+
+Computationally intensive stages use SLURM scripts. HPC-specific
+paths, software modules, and resource allocations must be
+adapted to the target computing environment.
+
+Example ligand input and docking output files are provided
+in the `examples/` directory.
 
 ## Reproducibility
 
