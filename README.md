@@ -81,7 +81,7 @@ The following software and versions are documented in the study methods. Version
 | GNU Bash | 5.1.16 | Workflow execution and shell scripting |
 | AutoDock Vina | 1.2.5 | Molecular docking |
 | Meeko | 0.7.1 | Ligand and receptor preparation |
-| PyMOL | 3.1.8* | Molecular visualization and structural figures |
+| PyMOL | 3.1.8 | Molecular visualization and structural figures |
 | PLIP | 3.0.1 | Protein–ligand interaction profiling |
 | ADMET-AI | Not documented | ADMET prediction |
 | GROMACS | 2024.6 | Molecular dynamics simulations |
