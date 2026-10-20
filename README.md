@@ -98,6 +98,19 @@ The following software and versions are documented in the study methods. Version
 | Protein Data Bank (PDB) | Experimental reference SCD structure |
 | PubChem | Reference-inhibitor chemical structures |
 
+### COCONUT Input Dataset
+
+The original COCONUT SDF file used in this study was
+`coconut_sdf_2d_lite-08-2026.sdf`, containing 738,823 molecular records.
+
+To reproduce the library-preparation stage, obtain the corresponding
+COCONUT dataset and place the SDF file at:
+
+`data/raw/coconut_sdf_2d_lite-08-2026.sdf`
+
+This large source dataset is not included in the repository.
+Different COCONUT releases may produce different screening results.
+
 The COCONUT source file used in the case study was `coconut_sdf_2d_lite-08-2026.sdf`. The experimental structural reference was PDB `2STD`.
 
 The computational work was conducted using a SLURM-based high-performance computing environment, including the Narval system of the Digital Research Alliance of Canada.
@@ -200,16 +213,3 @@ Khartoum, Sudan
 Department of Chemistry and Biochemistry  
 University of Northern British Columbia (UNBC)
 Prince George, British Columbia, Canada
-
-### COCONUT Input Dataset
-
-The original COCONUT SDF file used in this study was
-`coconut_sdf_2d_lite-08-2026.sdf`, containing 738,823 molecular records.
-
-To reproduce the library-preparation stage, obtain the corresponding
-COCONUT dataset and place the SDF file at:
-
-`data/raw/coconut_sdf_2d_lite-08-2026.sdf`
-
-This large source dataset is not included in the repository.
-Different COCONUT releases may produce different screening results.
