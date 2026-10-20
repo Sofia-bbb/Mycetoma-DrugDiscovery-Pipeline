@@ -73,10 +73,10 @@ The following software and versions are documented in the study methods. Version
 | Software or package | Version | Application |
 |---|---|---|
 | Python | 3.11.4 | Workflow scripting and data processing |
-| RDKit | 2026.03.6* | Chemical-library curation, molecular descriptors, and 3D preparation |
-| Biopython | 1.86+computecanada* | Sequence alignment and structural analysis |
-| Requests | 2.34.2+computecanada* | Data retrieval |
-| PyYAML | 6.0.3+computecanada* | Configuration handling |
+| RDKit | 2026.03.6 | Chemical-library curation, molecular descriptors, and 3D preparation |
+| Biopython | 1.86+computecanada | Sequence alignment and structural analysis |
+| Requests | 2.34.2+computecanada | Data retrieval |
+| PyYAML | 6.0.3+computecanada | Configuration handling |
 | R | 4.6.1 | Computational data processing |
 | GNU Bash | 5.1.16 | Workflow execution and shell scripting |
 | AutoDock Vina | 1.2.5 | Molecular docking |
