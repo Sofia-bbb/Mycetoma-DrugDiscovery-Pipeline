@@ -198,7 +198,7 @@ The workflow and its main computational settings are described in [`docs/workflo
 
 ## Authors and Affiliations
 
-**Sofia B Mohamed**
+**Sofia B Mohamed**  
 Department of Chemistry and Biochemistry  
 University of Northern British Columbia (UNBC)  
 Prince George, British Columbia, Canada
@@ -209,7 +209,7 @@ National University Biomedical Research Institute
 National University-Sudan  
 Khartoum, Sudan
 
-**Jacob Walsh**
+**Jacob Walsh**  
 Department of Chemistry and Biochemistry  
-University of Northern British Columbia (UNBC)
+University of Northern British Columbia (UNBC)  
 Prince George, British Columbia, Canada
