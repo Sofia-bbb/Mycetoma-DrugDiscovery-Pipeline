@@ -73,20 +73,24 @@ The following software and versions are documented in the study methods. Version
 | Software or package | Version | Application |
 |---|---|---|
 | Python | 3.11.4 | Workflow scripting and data processing |
-| RDKit | Not documented | Chemical-library curation, molecular descriptors, and 3D preparation |
-| Biopython | Not documented | Sequence alignment and structural analysis |
-| Requests | Not documented | Data retrieval |
-| PyYAML | Not documented | Configuration handling |
+| RDKit | 2026.03.6* | Chemical-library curation, molecular descriptors, and 3D preparation |
+| Biopython | 1.86+computecanada* | Sequence alignment and structural analysis |
+| Requests | 2.34.2+computecanada* | Data retrieval |
+| PyYAML | 6.0.3+computecanada* | Configuration handling |
 | R | 4.6.1 | Computational data processing |
 | GNU Bash | 5.1.16 | Workflow execution and shell scripting |
 | AutoDock Vina | 1.2.5 | Molecular docking |
 | Meeko | 0.7.1 | Ligand and receptor preparation |
+| PyMOL | 3.1.8* | Molecular visualization and structural figures |
 | PLIP | 3.0.1 | Protein–ligand interaction profiling |
 | ADMET-AI | Not documented | ADMET prediction |
 | GROMACS | 2024.6 | Molecular dynamics simulations |
 | AmberTools | 25.0 | Molecular parameterization and MM/GBSA analysis |
 | MMPBSA.py | AmberTools component | MM/GBSA calculations |
 | cpptraj | AmberTools component | Molecular trajectory processing |
+
+
+*Versions marked with an asterisk were verified in the current working environments; their use in every original analysis step has not been independently confirmed.*
 
 ### Databases and Structural Resources
 
