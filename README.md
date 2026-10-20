@@ -200,3 +200,16 @@ Khartoum, Sudan
 Department of Chemistry and Biochemistry  
 University of Northern British Columbia (UNBC)
 Prince George, British Columbia, Canada
+
+### COCONUT Input Dataset
+
+The original COCONUT SDF file used in this study was
+`coconut_sdf_2d_lite-08-2026.sdf`, containing 738,823 molecular records.
+
+To reproduce the library-preparation stage, obtain the corresponding
+COCONUT dataset and place the SDF file at:
+
+`data/raw/coconut_sdf_2d_lite-08-2026.sdf`
+
+This large source dataset is not included in the repository.
+Different COCONUT releases may produce different screening results.
