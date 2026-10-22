@@ -1,5 +1,5 @@
 
-# Reproducible Structure-Based Drug-Discovery Pipeline
+## Reproducible Structure-Based Drug-Discovery Pipeline
 
 This repository provides a computational workflow for systematic screening, prioritization, and molecular-dynamics-based evaluation of compounds from large chemical libraries.
 
