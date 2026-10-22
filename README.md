@@ -11,7 +11,7 @@ The results represent computational predictions and candidate prioritization, no
 
 ## Workflow
 
-The workflow comprises the following sequential operations. Implementation scripts are organized into seven numbered computational-stage directories, while final candidate prioritization is performed through an integrated qualitative assessment.
+The workflow comprises the following sequential operations. Implementation scripts are organized into seven core computational-stage directories, followed by an eighth directory for post hoc sensitivity analyses, while final candidate prioritization is performed through an integrated qualitative assessment.
 
 1. Natural-product library retrieval and inventory
 2. Quinone identification and library curation
@@ -25,12 +25,13 @@ The workflow comprises the following sequential operations. Implementation scrip
 10. Molecular dynamics simulations and trajectory analysis
 11. MM/GBSA binding-energy estimation
 12. Final qualitative computational candidate prioritization
+13. Post hoc sensitivity analysis
 
 Detailed descriptions of the seven computational stages, associated parameters, and filtering criteria are provided in [`docs/workflow.md`](docs/workflow.md).
 
 ## Repository Structure
 
-The repository is organized into seven computational stages, with supporting directories for configuration, documentation, and example data.
+The repository is organized into seven core computational stages plus an eighth sensitivity-analysis directory, with supporting directories for configuration, documentation, and example data.
 
 | Directory | Description |
 |---|---|
@@ -41,6 +42,7 @@ The repository is organized into seven computational stages, with supporting dir
 | `05_prioritization/` | Medicinal-chemistry and ADMET-based prioritization |
 | `06_md_simulation/` | MD system preparation, production simulations, and trajectory analysis |
 | `07_mmgbsa/` | MM/GBSA binding-energy estimation |
+| `08_sensitivity_analysis/` | Post hoc candidate-prioritization sensitivity analyses |
 | `config/` | Project configuration |
 | `data/` | Available data directories and files |
 | `docs/` | Workflow documentation |
@@ -65,6 +67,20 @@ Nine compounds classified as `ADVANCE`, together with two reference inhibitors, 
 Final prioritization considered the overall balance of ligand RMSD, hydrogen-bond occupancy, binding-site contact persistence, MM/GBSA binding-energy estimates, quantitative estimate of drug-likeness (QED), and predicted ADMET properties rather than any single parameter.
 
 The remaining four compounds were assigned lower relative priority and were not classified as inactive or unsuitable for future investigation.
+
+## Final Candidate Prioritization and Sensitivity Analysis
+
+The initial five-candidate shortlist was established through integrated
+qualitative assessment. Four post hoc analyses were subsequently performed:
+equal-weight scoring, leave-one-metric-out analysis, rank aggregation,
+and Monte Carlo random-weight sensitivity analysis.
+
+The original shortlist was reproduced in 67.956% of 100,000 Monte Carlo
+iterations. Analysis scripts, input descriptors, results, and reproduction
+instructions are available in [08_sensitivity_analysis/](08_sensitivity_analysis/).
+
+These analyses evaluate computational ranking stability rather than
+experimentally established inhibitory activity.
 
 ## Software Requirements
 
